@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+
+Profile Page
+
+{% endblock %}
+
+
+{% block body_block %}
+
+<br>
+
+<div style="text-align:center;">
+
+    <h2>Welcom {{user.username}} For Skill Test Demo Quizzes</h2>
+
+    <h3>You are one step ahead to take the quiz</h3>
+
+    <h3>There are two quizzes for demo Quiz-1 amd Quiz-2</h3>
+
+    <h3>Each Quiz contain 10 questions</h3>
+
+    <h3>For correct answer 10 marks for each question</h3>
+
+    <h3>For wrong answers -3 deducted for each question</h3>
+
+    <h3>Take a quiz and check your knowledge</h3>
+
+    <h3>All the best for your Quiz <b>{{user.username}}</b></h3>
+
+</div>
+{% endblock %}
